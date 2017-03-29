@@ -23,7 +23,7 @@ public class DPTest {
 					}
 				}
 			}
-			System.out.println("数字" + number + "最好需要" + dp[dp.length-1] + "个数字组合");
+			System.out.println("数字" + number + "最少需要" + dp[dp.length-1] + "个数字组合");
 		} finally {
 			// TODO: handle finally clause
 			in.close();
